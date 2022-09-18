@@ -1,0 +1,112 @@
+:root{
+    --color-text:red;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("IMG/5_6140991321252300872.jpg");
+    background-size: cover;
+}
+.color-text{
+    color: red;
+}
+ul>li{
+    margin-right: 50px;
+}
+.container_hight{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.hover_effict{
+    color: red;
+    text-decoration: none;
+    font-size: 19px;
+}
+.hover_effict:hover{
+    color: #fff;
+    
+}
+.button1{
+    padding: 10px 45px;
+    border: 1px solid gray;
+    background-color: red;
+    color: #fff;
+    font-weight: 500;
+    
+}
+.button1:hover{
+    background-color: #fff;
+    color: red;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.text-style{
+    font-weight: 500;
+    font-size: 35px;
+}
+.text-style1{
+    font-weight: 500;
+    font-size: 35px;
+    color:red;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    p{
+        width: 100%;
+    }
+    .container_hight> div{
+        padding-left: 10px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    p{
+        width: 100%;
+    }
+    .container_hight> div{
+        padding-left: 10px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    p{
+        width: 100%;
+    }
+    .container_hight> div{
+        padding-left: 10px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    p{
+        width: 75%;
+    }
+    .container_hight> div{
+        padding-left: 20px;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    p{
+        width: 45%;
+    }
+    .container_hight> div{
+        padding-left: 50px;
+    }
+  }
