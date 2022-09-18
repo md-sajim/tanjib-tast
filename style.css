@@ -54,11 +54,13 @@ p{
 .text-style{
     font-weight: 500;
     font-size: 35px;
+    line-height: 0;
 }
 .text-style1{
     font-weight: 500;
     font-size: 35px;
     color:red;
+    line-height: 0;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -68,6 +70,9 @@ p{
     }
     .container_hight> div{
         padding-left: 10px;
+    }
+    .hover_effict{
+        font-size: 14px;
     }
   }
   
@@ -79,6 +84,9 @@ p{
     .container_hight> div{
         padding-left: 10px;
     }
+    .hover_effict{
+        font-size: 15px;
+    }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -88,6 +96,9 @@ p{
     }
     .container_hight> div{
         padding-left: 10px;
+    }
+    .hover_effict{
+        font-size: 16px;
     }
   } 
   
